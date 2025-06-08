@@ -32,8 +32,9 @@ function App() {
 
     try {
       // Faz a requisição para a sua API Express (que por sua vez chama a API do GitHub)
+      // LINHA CORRIGIDA AQUI: Removidas as tags HTML e a sintaxe incorreta
       const response = await fetch(
-        `<span class="math-inline">\{API\_BASE\_URL\}/search/repos?q\=</span>{encodeURIComponent(searchTerm)}`
+        `${API_BASE_URL}/search/repos?q=${encodeURIComponent(searchTerm)}`
       );
 
       // Verifica se a resposta foi bem-sucedida (status 2xx)
@@ -52,6 +53,7 @@ function App() {
       setError(
         err.message || "Ocorreu um erro desconhecido ao buscar os repositórios."
       );
+      // Mantendo esta segunda linha setError para a mensagem customizada que você quer exibir ao usuário
       setError(
         "Ocorreu um erro ao buscar os repositórios. Verifique se a sua API está rodando e o token do GitHub está configurado."
       );
