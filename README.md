@@ -3,7 +3,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/kaua-stack/gitpes)
 ![GitHub language count](https://img.shields.io/github/languages/count/kaua-stack/gitpes)
 
-
 <br>
 
 <p align="center">
@@ -14,7 +13,7 @@
   <img src="https://img.shields.io/badge/GitHub%20API-181717?style=for-the-badge&logo=github&logoColor=white" alt="Tecnologia GitHub API">
   <img src="https://img.shields.io/badge/CLI-Command%20Line-informational?style=for-the-badge&logo=clojure&logoColor=white" alt="Tipo CLI">
   <img src="https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge" alt="Status Concluído">
-  <img src="https://img.shields.io/badge/Licença-ISC-blue?style=for-the-badge" alt="Licença ISC">
+  
 </p>
 
 ---
@@ -63,6 +62,16 @@ Para ver o projeto online, você precisará ter o **Backend** e o **Frontend** p
 ### Outras
 - **Git**: Sistema de controle de versão.
 - **GitHub API**: API oficial do GitHub para acesso a dados.
+
+---
+
+## 🎯 Funcionalidades
+
+- ✅ **Pesquisa de Repositórios:** Busca repositórios públicos no GitHub por termo.
+- ✅ **API Intermediária Segura:** Backend para proteger o token do GitHub e controlar as requisições.
+- ✅ **Interface CLI:** Pesquisa direta e interativa via terminal.
+- ✅ **Interface Web:** Visualização amigável dos resultados no navegador.
+- ✅ **Gerenciamento de Credenciais:** Uso de `.env` para variáveis de ambiente sensíveis (como o token do GitHub).
 
 ---
 
